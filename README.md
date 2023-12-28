@@ -1,17 +1,33 @@
-# coding-games-environment
+# Introduction
 
-This environment is responsible for hosting the development environment and tools for the book 'Coding Games in Python'
+This project has been created to implement the excersizes found in the book 'Coding Games in Python'.
 
-# Docker
+# Prerequisities
 
-## Building the Image
+## Envrionment Details
 
-To build the docker image for this application execute the following command
+- Windows 10
+- Python 3.12
+- pygame 2.5.2
+- pgzero 1.2.1
 
-`docker build -t coding-games .`
+## Install Python
 
-## Running the Image
+Install Python from the Python website or from the Microsoft store.
 
-To run the docker image execute the following command
+## Install pygame
 
-`docker run -i -t --rm -v ${pwd}/src:/src coding-games`
+Install pygame using pip.
+
+`pip install pygame`
+
+## Install pgzero
+
+Install pgzero using pip.
+
+`pip install pgzero`
+
+## Docker Image Incompatibility
+
+The environment can not be easily hosted in a docker environment due to GUI requirements.
+I considered it too much effort to pursue.
