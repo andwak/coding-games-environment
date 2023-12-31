@@ -31,3 +31,17 @@ Install pgzero using pip.
 
 The environment can not be easily hosted in a docker environment due to GUI requirements.
 I considered it too much effort to pursue.
+
+# Executing the Code
+
+In order to execute the python code execute the python file as a parameter of the python tool.
+
+`python <folder>/<file>.py`
+
+Chapter 1 Examples
+
+`python chapter1/hello.py`
+
+Chapter 2 Examples
+
+`python chapter2/numbers.py`
