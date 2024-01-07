@@ -45,3 +45,5 @@ Chapter 1 Examples
 Chapter 2 Examples
 
 `python chapter2/numbers.py`
+
+`python chapter2/strings.py`
