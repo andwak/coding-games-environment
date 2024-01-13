@@ -47,3 +47,5 @@ Chapter 2 Examples
 `python chapter2/numbers.py`
 
 `python chapter2/strings.py`
+
+`python chapter2/lists.py`
